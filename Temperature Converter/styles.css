@@ -1,0 +1,65 @@
+body {
+  font-family : 'Helvetica', Arial, sans-serif;
+  background : linear-gradient(-45deg, #d4e4ef, #a4c7e4, #5d9fe6, #1262a7);
+  background-size : 400% 400%;
+  animation : gradientAnimation 15s ease infinite;
+  text-align : center;
+  margin : 0;
+  padding : 0;
+  color : #333;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.container {
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  height : 100vh;
+}
+
+.converter {
+  background-color : rgba(255, 255, 255, 0.9);
+  border-radius : 10px;
+  box-shadow : 0 0 20px rgba(0, 0, 0, 0.3);
+  width : 350px;
+  padding : 20px;
+  margin : 0 auto;
+}
+
+h1 {
+  color : #333;
+  font-size : 24px;
+  margin-bottom : 20px;
+}
+
+.input-container {
+  display : flex;
+  flex-direction : column;
+  align-items : flex-start;
+  margin-bottom : 10px;
+}
+
+label {
+  font-size : 16px;
+  font-weight : bold;
+  color : #333;
+  margin-bottom : 5px;
+}
+
+input {
+  width : 100%;
+  padding : 10px;
+  border : none;
+  border-radius : 5px;
+  background : #f4f4f4;
+  color : #333;
+}
+
+input::placeholder {
+  color : #999;
+}
