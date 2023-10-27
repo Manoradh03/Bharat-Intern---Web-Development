@@ -1,6 +1,6 @@
 # Bharat Intern - Web Development
 
-Welcome to my **BHARAT INTERN - Web Development** Internship project repository! Here, you will find a collection of files, documentation, and codes related to my journey and tasks during the internship. Feel free to explore and get insights into my work.
+Welcome to my **Bharat Intern - Web Development** Internship project repository! Here, you will find a collection of files, documentation, and codes related to my journey and tasks during the internship. Feel free to explore and get insights into my work.
 
 ## Table of Contents
 
